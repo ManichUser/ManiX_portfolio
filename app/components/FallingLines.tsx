@@ -6,7 +6,7 @@ const symbols = [
 ];
 
 export default function FallingCode() {
-  const items = Array.from({ length: 50 }); // nombre d’éléments qui tombent
+  const items = Array.from({ length: 50 }); 
 
   return (
     <div className="fixed top-0 left-0 w-full h-full pointer-events-none overflow-hidden z-0">

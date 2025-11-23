@@ -41,12 +41,15 @@ export const projects = [
   {
     title: "G-Shop",
     desc: "Site e-commerce pour groupes et communautés en ligne, avec gestion des produits, panier et paiement intégré. Idéal pour les petites entreprises et entrepreneurs numériques.",
-    tech: "React, Node.js, Express, MongoDB, Stripe",
+    tech: "React, Node.js,Spring Boot, Micro services  ",
     link: "https://github.com/ManichUser/G-Shop",
     images: [
       "/works/gshop/gshop-1.png",
       "/works/gshop/gshop-2.png",
       "/works/gshop/gshop-3.png",
+      "/works/gshop/gshop-4.png",
+      "/works/gshop/gshop-5.png",
+      "/works/gshop/gshop-6.png",
     ],
   },
   {
@@ -69,6 +72,11 @@ export const projects = [
       "/works/rovel-ticket-express/express-1.png",
       "/works/rovel-ticket-express/express-2.png",
       "/works/rovel-ticket-express/express-3.png",
+      "/works/rovel-ticket-express/express-4.png",
+      "/works/rovel-ticket-express/express-5.png",
+      "/works/rovel-ticket-express/express-6.png",
+      "/works/rovel-ticket-express/express-7.png",
+      "/works/rovel-ticket-express/express-8.png",
     ],
   },
 
