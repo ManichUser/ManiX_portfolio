@@ -13,7 +13,7 @@ export const projects = [
   },
   {
     title: "Portfolio",
-    desc: "Un site portfolio moderne et élégant présentant mes projets, compétences et expériences. Inclut des animations fluides et un design responsive pour desktop et mobile.",
+    desc: "Un site portfolio moderne et élégant présentant : projets, compétences, expériences et bien d'autres. Inclut un design responsive pour desktop et mobile.",
     tech: "Vite, TypeScript, Tailwind CSS",
     link: "https://staline-tahi-portfolio.onrender.com",
     images: [
@@ -55,9 +55,9 @@ export const projects = [
     tech: "Next.js, Node.js,Neon (PostgreSQL), Tailwind CSS",
     link: "https://github.com/ManichUser/rovel-reservation",
     images: [
-      "/works/rovel-reservation/rovel-1.png",
-      "/works/rovel-reservation/rovel-2.png",
-      "/works/rovel-reservation/rovel-3.png",
+      "/works/rovel-reservation/rovel-reservation-1.png",
+      "/works/rovel-reservation/rovel-reservation-2.png",
+      "/works/rovel-reservation/rovel-reservation-3.png",
     ],
   },
   {
