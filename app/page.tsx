@@ -5,10 +5,12 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Experience from "./components/Experience";
 import FallingLines from "./components/FallingLines";
+import { Footer } from "./components/Footer";
 
 export default function Home() {
   return (
-    <Layout>
+    <main>
+      <Layout>
       <FallingLines />
       <Hero />
       <AboutMe />
@@ -16,5 +18,7 @@ export default function Home() {
       <Projects />
       <Experience />
     </Layout>
+    <Footer/>
+    </main>
   );
 }

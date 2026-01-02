@@ -14,7 +14,7 @@ export default function Hero() {
         transition={{ duration: 0.8 }}
         className="relative w-72 h-96 rounded-[120px] overflow-hidden border border-gray-700 bg-white shadow-2xl"
       >
-      
+
         <img
           src="/profile.png"
           alt="Profile"
