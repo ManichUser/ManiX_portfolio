@@ -27,7 +27,7 @@ export default function AboutMe() {
   const { ref, visible } = useInView(0.1);
 
   const cards = [
-    { icon: <FaCode className="text-[#58a6ff]" />,      label: "Full-Stack",   value: "React · Next.js · Node" },
+    { icon: <FaCode className="text-[#58a6ff]" />,      label: "Full-Stack",   value: "React · Next.js · Node · Springboot" },
     { icon: <HiChip className="text-[#3fb950]" />,      label: "Data Science", value: "Python · ML · Analytics" },
     { icon: <FaTerminal className="text-[#f0883e]" />,  label: "Mobile",       value: "React Native · Expo" },
   ];

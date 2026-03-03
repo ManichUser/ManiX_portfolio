@@ -13,8 +13,8 @@ const contacts = [
 ];
 
 const socials = [
-  { Icon: FaGithub,   href: "#", label: "GitHub"   },
-  { Icon: FaLinkedin, href: "#", label: "LinkedIn"  },
+  { Icon: FaGithub,   href: "https://github.com/ManichUser/", label: "GitHub"   },
+  { Icon: FaLinkedin, href: "https://www.linkedin.com/in/manich-debami-1739ab322/", label: "LinkedIn"  },
 ];
 
 export default function Footer() {

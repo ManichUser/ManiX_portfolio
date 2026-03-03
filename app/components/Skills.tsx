@@ -20,7 +20,7 @@ interface Skill {
 const skills: Skill[] = [
   {
     name: "TypeScript / Next.js / React / Vite",
-    level: 90,
+    level: 60,
     color: "#58a6ff",
     icons: [
       <SiTypescript className="text-blue-400"   key="ts"   />,
@@ -31,7 +31,7 @@ const skills: Skill[] = [
   },
   {
     name: "React Native / Expo / Angular",
-    level: 75,
+    level: 45,
     color: "#a5d6ff",
     icons: [
       <FaReact   className="text-cyan-400"   key="rn"  />,
@@ -41,19 +41,19 @@ const skills: Skill[] = [
   },
   {
     name: "Node.js / Express.js",
-    level: 80,
+    level: 60,
     color: "#3fb950",
     icons: [<FaNodeJs className="text-green-400" key="node" />],
   },
   {
     name: "Python / Flask",
-    level: 70,
+    level: 60,
     color: "#f0883e",
     icons: [<FaPython className="text-yellow-400" key="py" />],
   },
   {
     name: "Java / Spring Boot",
-    level: 75,
+    level: 65,
     color: "#ff7b72",
     icons: [
       <FaJava      className="text-red-400"   key="java"/>,
@@ -62,13 +62,13 @@ const skills: Skill[] = [
   },
   {
     name: "SQL (PostgreSQL / MySQL)",
-    level: 80,
+    level: 70,
     color: "#58a6ff",
     icons: [<SiMysql className="text-blue-400" key="mysql" />],
   },
   {
     name: "NoSQL (MongoDB / Firebase)",
-    level: 65,
+    level: 55,
     color: "#3fb950",
     icons: [
       <SiMongodb  className="text-green-500"  key="mongo"/>,
@@ -77,7 +77,7 @@ const skills: Skill[] = [
   },
   {
     name: "Gestion de projets logiciels",
-    level: 70,
+    level: 65,
     color: "#f0883e",
     icons: [<FaProjectDiagram className="text-orange-400" key="pm" />],
   },

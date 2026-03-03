@@ -90,7 +90,7 @@ export default function Hero() {
         style={{ zIndex: 0 }}
       >
         <img
-          src="/profile.png"
+          src="/profile-2.PNG"
           alt=""
           aria-hidden="true"
           className="absolute top-0 right-0 h-full w-full sm:w-[65%] lg:w-[55%]"
@@ -302,7 +302,9 @@ export default function Hero() {
                 }}
               >
                 <FaDownload className="text-[11px]" />
+                <a  href="/CV-Manich_Dibakto.pd" download >
                 Resume
+                </a>
               </motion.button>
             </motion.div>
           </motion.div>
