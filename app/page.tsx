@@ -11,16 +11,20 @@ import { NavBar } from "./components/NavBar";
 export default function Home() {
   return (
     <main>
-      <NavBar/>
-    <Layout>
-      <FallingLines />
+      <NavBar />
+
+      {/* Hero HORS du Layout — plein écran sans contrainte */}
       <Hero />
-      <AboutMe />
-      <Skills />
-      <Projects />
-      <Experience />
-    </Layout>
-    <Footer/>
+
+      <Layout>
+        <FallingLines />
+        <AboutMe />
+        <Skills />
+        <Projects />
+        <Experience />
+      </Layout>
+
+      <Footer />
     </main>
   );
 }
