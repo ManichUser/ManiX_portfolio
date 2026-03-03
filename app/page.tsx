@@ -5,12 +5,14 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Experience from "./components/Experience";
 import FallingLines from "./components/FallingLines";
-import { Footer } from "./components/Footer";
+import Footer from "@/app/components/Footer";
+import { NavBar } from "./components/NavBar";
 
 export default function Home() {
   return (
     <main>
-      <Layout>
+      <NavBar/>
+    <Layout>
       <FallingLines />
       <Hero />
       <AboutMe />

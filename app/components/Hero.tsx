@@ -1,11 +1,11 @@
 'use client';
 
 import { motion } from "framer-motion";
-import DownloadCV from "./Download";
+
 
 export default function Hero() {
   return (
-    <section className="flex flex-col lg:flex-row items-center justify-center gap-16 py-12 px-6  bg-[#0B0F1A]">
+    <section id="#" className="flex flex-col lg:flex-row items-center justify-center gap-16 py-12 px-6  h-screen bg-[#0B0F1A]">
       
       {/* LEFT — IMAGE WITH CUSTOM SHAPE */}
       <motion.div
@@ -68,16 +68,6 @@ export default function Hero() {
           </button>
         </a>
 
-
-          <a href="#projects">
-            <button className="border border-gray-500 text-gray-200 px-9 py-6 rounded-xl font-medium hover:bg-white/10 transition-all">
-              Projets
-          </button>
-          </a>
-          <div>
-         
-            <DownloadCV/>
-        </div>
         </div>
       </motion.div>
     </section>
